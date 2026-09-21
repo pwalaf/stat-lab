@@ -1,0 +1,19 @@
+# Environnements virtuels
+/venv/
+/.venv/
+env/
+ENV/
+
+# Caches Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuration locale Streamlit
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Fichiers système et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
