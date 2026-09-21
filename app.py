@@ -15,7 +15,8 @@ from stats import (
     prepare_imported_sim_table,
 )
 
-st.set_page_config(page_title="StatLab", page_icon="📈", layout="centered")
+st.set_page_config(page_title="StatLab", page_icon="📈", layout="wide")
+st.html("<style>.main .block-container { max-width: 1300px; padding: 2rem 1rem; }</style>")
 
 st.title("StatLab")
 st.caption("Convergence des lois & test d'adéquation")
